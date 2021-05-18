@@ -1,0 +1,88 @@
+:root{
+    /*  REPRESENTS THE <HTML> ELEMENT IN THE HTML PAGE
+        HERE WE ARE DEFINING THREE COLORS
+        NOTE: COMMENTED OUT LAST LIGHT-THEME TO UPDATE IT LONG WITH DARK-THEME
+        NOTE: COMMENTED OUT BODY AND ADDED UPDATED BODY AND "*" SECTIONS   */
+        --pink: #d1385e;
+        --white: #FFFFFF;
+        --black: #000000;
+    }
+
+/*  COMMENTED OUT AFTER LIGHT-THEME WAS UPDATED AND DARKTHEME WAS ADDED
+body{
+    font-family: sans-serif;
+}*/
+
+*{
+    /*UNIVERSAL SELECTOR THAT APPLIES TO ALL PAGE ELEMENTS EXCEPT FOR A MORE SPECIFIC ELEMENT SELECTOR OVERRRIDES*/
+    color: var(--fontColor);
+    font-family: Helvetica;
+}
+
+body{
+    background: var(--bg);
+}
+
+ul{
+    font-family: monospace;
+}
+
+li{
+    list-style: circle;
+}
+
+.list{
+    list-style: square;
+}
+
+/*  COMMENTED OUT AFTER "*" SELECTOR WAS PUT IN PLACE
+#msg{
+    COMMENT: THIS OVERRIDES THE "BODY" STYLE
+    font-family: 'Times New Roman';
+}*/
+
+/*  COMMENTED OUT AFTER :ROOT WAS ADDED
+.light-theme{
+    color: #000000;
+    background: #d1385e;
+}*/
+
+/*  UPDATED AFTER .BTN WAS ADDED
+.light-theme{
+    --bg: var(--pink);
+    --fontColor: var(--black);
+}
+
+.dark-theme{
+    --bg: var(--black);
+    --fontColor: var(--pink);
+}*/
+
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--pink);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--pink);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.btn{
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus { outline-style: none; }
+
