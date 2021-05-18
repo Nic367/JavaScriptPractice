@@ -14,7 +14,7 @@
     * index.html
     * app.js
 ### Summary
-*I just wanted to learn something new and was told to get into JavaScript. My HTML and CSS were very rusty so I started slow with a basic website and learned how to create a button using a tutorial. After I figured all that out and understood I moved on to a challenge I found online. One thing I'm not completely sure about is the age in days seems like it wouldn't calculate the days in the current year so I would have to fix that. I'm going to keep gradually adding to this project as I keep learning but this is what I have thus far.*
+*I just wanted to learn something new and was told to get into JavaScript. My HTML and CSS were very rusty so I started slow with a basic website and learned how to create a button using a tutorial (SIMPLE-WEBSITE). After I figured all that out and understood I moved on to a challenge (PROJECT) I found online. One thing I'm not completely sure about is the age in days seems like it wouldn't calculate the days in the current year so I would have to fix that. I'm going to keep gradually adding to this project as I keep learning but this is what I have thus far.*
 
 ### Things to remember
 :warning: **_Provided By My 110 Professor For My First Lab_** :warning:
